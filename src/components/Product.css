@@ -1,0 +1,14 @@
+.product{
+    margin: 50px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.description{
+    
+    
+}
