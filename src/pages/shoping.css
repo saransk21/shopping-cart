@@ -14,10 +14,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+    outline: none;
 }
 .buttons{
     height:50px;
     width: 60px;
     margin: 30px;
     background-color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
 }

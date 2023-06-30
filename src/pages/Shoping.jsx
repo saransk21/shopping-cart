@@ -26,7 +26,7 @@ function Shoping() {
           <button className='buttons' onClick={()=>dispatch(cartActions.setNameBrand("axor"))}>AXOR</button>
           <button className='buttons' onClick={()=>dispatch(cartActions.setNameBrand("smk"))}>SMK</button>
           <button className='buttons' onClick={()=>dispatch(cartActions.setNameBrand("re"))}>RE</button>
-          <button className='buttons' onClick={()=>dispatch(cartActions.setNameBrand(""))}>all</button>
+          <button className='buttons' onClick={()=>dispatch(cartActions.setNameBrand(""))}>ALL</button>
         </div>
 
         <div className='prodList'>

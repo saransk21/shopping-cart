@@ -1,5 +1,4 @@
 import React from 'react'
-import { data } from '../data/data'
 import './Product.css'
 import { useSelector,useDispatch } from 'react-redux'
 import { cartActions } from '../redux/reducer/cart-slice';
@@ -15,7 +14,7 @@ function Product({ id, productName, price, productImage,brand }) {
   return (
     <div>
         <div className='product'>
-            <img src={productImage} style={{height:250,width:250}} />
+            <img src={productImage} style={{height:250,width:250}} alt='img'/>
             <div className='description'>
                 <p>
                   <b>{name}</b>
